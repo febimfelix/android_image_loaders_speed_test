@@ -1,4 +1,4 @@
-package info.androidhive.glide.model;
+package com.febi.imageloader.model;
 
 import java.io.Serializable;
 

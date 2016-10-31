@@ -1,4 +1,4 @@
-package info.androidhive.glide.app;
+package com.febi.imageloader.app;
 
 import android.app.Application;
 import android.text.TextUtils;
@@ -9,7 +9,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 import com.facebook.drawee.backends.pipeline.Fresco;
 
-import info.androidhive.glide.helper.LruBitmapCache;
+import com.febi.imageloader.helper.LruBitmapCache;
 
 /**
  * Created by Lincoln on 04/04/16.

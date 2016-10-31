@@ -1,4 +1,4 @@
-package info.androidhive.glide.adapter;
+package com.febi.imageloader.adapter;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,13 +13,13 @@ import com.android.volley.toolbox.ImageLoader;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.febi.imageloader.R;
+import com.febi.imageloader.app.AppController;
+import com.febi.imageloader.helper.ImageDownloadOkHttpTask;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-import info.androidhive.glide.R;
-import info.androidhive.glide.app.AppController;
-import info.androidhive.glide.helper.ImageDownloadOkHttpTask;
 
 /**
  * Created by Lincoln on 31/03/16.

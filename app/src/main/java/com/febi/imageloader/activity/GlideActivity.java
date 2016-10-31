@@ -1,4 +1,4 @@
-package info.androidhive.glide.activity;
+package com.febi.imageloader.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -16,6 +16,10 @@ import android.widget.Chronometer;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.febi.imageloader.R;
+import com.febi.imageloader.adapter.GalleryAdapter;
+import com.febi.imageloader.app.AppController;
+import com.febi.imageloader.model.Image;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -23,10 +27,6 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import info.androidhive.glide.R;
-import info.androidhive.glide.adapter.GalleryAdapter;
-import info.androidhive.glide.app.AppController;
-import info.androidhive.glide.model.Image;
 import okhttp3.MediaType;
 
 public class GlideActivity extends AppCompatActivity {

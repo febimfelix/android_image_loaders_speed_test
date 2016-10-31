@@ -1,4 +1,4 @@
-package info.androidhive.glide.helper;
+package com.febi.imageloader.helper;
 
 import android.annotation.TargetApi;
 import android.content.Context;

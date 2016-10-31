@@ -1,4 +1,4 @@
-package info.androidhive.glide.activity;
+package com.febi.imageloader.activity;
 
 import android.content.Context;
 import android.net.Uri;
@@ -13,10 +13,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.febi.imageloader.R;
 
 import java.util.ArrayList;
 
-import info.androidhive.glide.R;
 
 
 public class SlideshowDialogFragment extends DialogFragment {

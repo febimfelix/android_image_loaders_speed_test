@@ -1,4 +1,4 @@
-package info.androidhive.glide;
+package com.febi.imageloader;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
